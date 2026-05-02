@@ -1,0 +1,46 @@
+# ============== Python ==============
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ============== Virtual Environment ==============
+text_detector/
+venv/
+.venv/
+env/
+
+# ============== Model & Large Files ==============
+pipeline/best_model/
+*.zip
+*.whl
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# ============== Data ==============
+data/
+
+# ============== Environment Variables ==============
+.env
+
+# ============== Logs ==============
+logs/
+
+# ============== IDE ==============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============== OS ==============
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============== Jupyter ==============
+.ipynb_checkpoints/

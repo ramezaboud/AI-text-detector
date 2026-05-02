@@ -1,0 +1,33 @@
+# Deep Learning
+torch==2.11.0
+torchvision==0.26.0
+torchaudio==2.11.0
+
+# Transformers
+transformers==4.36.0  
+accelerate==1.13.0
+datasets==4.8.2
+
+# API
+fastapi==0.135.1
+uvicorn==0.42.0
+pydantic-settings==2.13.1
+python-dotenv==1.2.2
+
+# ML
+scikit-learn==1.7.2
+
+# Data
+pandas==2.3.3
+numpy==2.2.6
+
+# Text Processing
+langdetect==1.0.9
+
+# Visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Utils
+tqdm==4.67.3
+sentencepiece==0.2.0
