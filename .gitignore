@@ -3,12 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyo
+*.so
 
 # ============== Virtual Environment ==============
 text_detector/
 venv/
 .venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 
 # ============== Model & Large Files ==============
 pipeline/best_model/
@@ -26,9 +30,40 @@ data/
 
 # ============== Environment Variables ==============
 .env
+.envrc
 
 # ============== Logs ==============
 logs/
+*.log
+
+# ============== Distribution / Packaging ==============
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ============== Testing ==============
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
 
 # ============== IDE ==============
 .vscode/
@@ -36,6 +71,9 @@ logs/
 *.swp
 *.swo
 *~
+.spyderproject
+.spyproject
+.ropeproject
 
 # ============== OS ==============
 .DS_Store
@@ -44,3 +82,14 @@ desktop.ini
 
 # ============== Jupyter ==============
 .ipynb_checkpoints/
+
+# ============== Type Checkers ==============
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ============== Misc ==============
+cython_debug/
+tempCodeRunnerFile.py
