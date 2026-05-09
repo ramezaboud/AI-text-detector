@@ -26,11 +26,11 @@ class Settings(BaseSettings):
     SAMPLE_SIZE: int = 100000
     RANDOM_SEED: int = 42
 
-    # Text — ثوابت مش بتتغير
+    # Text — constants that don't change
     MIN_WORDS:      int = 20
     MAX_TOKENS:     int = 512
-    CHUNK_SIZE:     int = 400   # عدد الكلمات في كل chunk
-    CHUNK_OVERLAP:  int = 100   # كلمات متداخلة بين كل chunk والتاني
+    CHUNK_SIZE:     int = 400   # number of words per chunk
+    CHUNK_OVERLAP:  int = 100   # overlapping words between consecutive chunks
     STRIDE:         int = 128
 
     # Auto-detected
