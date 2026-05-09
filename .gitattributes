@@ -1,0 +1,6 @@
+# Tell GitHub Linguist to treat notebooks as documentation (not source code)
+# so the repo language stats reflect the actual Python codebase.
+*.ipynb linguist-documentation
+
+# Ensure Python is detected correctly
+*.py linguist-language=Python
