@@ -68,24 +68,24 @@ Client Request
       │
       ▼
 ┌─────────────┐
-│   FastAPI    │  ← CORS enabled
-│   Router     │
+│   FastAPI   │  ← CORS enabled
+│   Router    │
 └──────┬──────┘
        │
        ▼
 ┌─────────────┐
-│  Controller  │  ← Input validation, language detection
+│  Controlle  │  ← Input validation, language detection
 └──────┬──────┘
        │
        ▼
 ┌─────────────┐     ┌──────────────┐
-│  Detector    │────▶│ XLM-RoBERTa  │  ← Fine-tuned model
-│  (predict)   │     │   (512 tok)  │
+│  Detector   │────▶│ XLM-RoBERTa  │  ← Fine-tuned model
+│  (predict)  │     │   (512 tok)  │
 └──────┬──────┘     └──────────────┘
        │
        ▼
 ┌─────────────┐
-│  Response    │  ← { verdict, confidenceScore }
+│  Response   │  ← { verdict, confidenceScore }
 └─────────────┘
 ```
 
